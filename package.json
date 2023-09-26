@@ -1,5 +1,5 @@
 {
-  "name": "simplefolio",
+  "name": "portfolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/cobiwave/simplefolio"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Marcos A",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
