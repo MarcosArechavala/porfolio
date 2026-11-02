@@ -1,6 +1,7 @@
-import initScrollReveal from "./scripts/scrollReveal";
-import initTiltEffect from "./scripts/tiltAnimation";
-import { targetElements, defaultProps } from "./data/scrollRevealConfig";
+import initI18n from "./scripts/i18n";
+import initUI from "./scripts/ui";
+import initAnimations from "./scripts/animations";
 
-initScrollReveal(targetElements, defaultProps);
-initTiltEffect();
+initI18n();
+initUI();
+initAnimations();

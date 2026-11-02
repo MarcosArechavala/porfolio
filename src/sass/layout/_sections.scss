@@ -1,10 +1,18 @@
-// Section
-section {
-  padding: 5rem 0rem;
+.section {
+  position: relative;
+  padding-block: clamp(5rem, 10vw, 8.5rem);
 
-  @include respond(phone) {
-    border: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  &--alt {
+    background: var(--bg-alt);
+    border-block: 1px solid var(--border);
+  }
+
+  &__head {
+    max-width: 720px;
+    margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  &__title {
+    font-size: clamp(2rem, 4.2vw, 3.1rem);
   }
 }

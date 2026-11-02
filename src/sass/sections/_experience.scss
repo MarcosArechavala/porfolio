@@ -1,0 +1,61 @@
+.exp-card {
+  @include card;
+  display: grid;
+  gap: 2.5rem;
+  padding: clamp(1.75rem, 4vw, 3rem);
+
+  @include up($bp-md) {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 4rem;
+  }
+
+  &__status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--success);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  &__role {
+    font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+    margin: 1rem 0 0.4rem;
+  }
+
+  &__org {
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+  }
+
+  &__intro {
+    font-size: 1.08rem;
+    color: var(--text);
+    margin-bottom: 1.75rem;
+  }
+
+  &__list {
+    display: grid;
+    gap: 1rem;
+
+    li {
+      position: relative;
+      padding-left: 1.75rem;
+      color: var(--text-muted);
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.62em;
+        width: 10px;
+        height: 2px;
+        border-radius: 2px;
+        background: var(--gradient);
+      }
+    }
+  }
+}
+

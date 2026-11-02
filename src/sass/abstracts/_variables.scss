@@ -1,15 +1,41 @@
-// COLORS
-$primary-color: #02aab0;
-$secondary-color: #00cdac;
+// ===== Design tokens =====
+$bp-sm: 600px;
+$bp-md: 900px;
+$bp-lg: 1200px;
 
-$white-color: #fff;
+:root {
+  // Surfaces
+  --bg: #08090c;
+  --bg-alt: #0c0e13;
+  --surface: #11141b;
+  --surface-2: #161a23;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
 
-$dark-grey: #333333;
-$light-grey: #d2d2d2;
+  // Text
+  --text: #eef0f5;
+  --text-muted: #9aa3b5;
+  --text-dim: #6b7385;
 
-$dark-blue-text: #272341; // For Headings
+  // Brand
+  --accent: #6d7cff;
+  --accent-2: #2dd4bf;
+  --accent-soft: rgba(109, 124, 255, 0.14);
+  --gradient: linear-gradient(120deg, #8b9bff 0%, #6d7cff 35%, #2dd4bf 100%);
+  --success: #34d399;
 
-// FONT SIZE
-$default-font-size: 1.6rem;
-$big-font-size: 4rem;
-$mid-font-size: 2.5rem;
+  // Type
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  // Shape & motion
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+
+  --container: 1160px;
+  --nav-h: 72px;
+}
