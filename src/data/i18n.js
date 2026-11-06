@@ -24,16 +24,19 @@ export const en = {
 
   "exp.eyebrow": "Experience",
   "exp.title": "Real software, in production, with real users.",
-  "exp.current": "Present",
-  "exp.role": "Systems Developer / Software Developer",
-  "exp.org": "Pediatric Hospital",
+  "exp.current": "Mar 2024 — Present",
+  "exp.role": "Systems Developer / Full-Stack Developer",
+  "exp.org": "Avelino Castelán Pediatric Hospital · Chaco, Argentina",
   "exp.intro":
-    "I work directly with the hospital's departments to understand their workflows and turn them into custom systems — from requirements gathering with healthcare staff to production deployment and support.",
+    "I work directly with the hospital's departments to understand their workflows and turn them into custom systems — from requirements gathering with healthcare staff to zero-downtime production deployment.",
   "exp.b1":
-    "<strong>Requirements & analysis</strong> with department heads, physicians, nursing and administrative teams.",
-  "exp.b2": "<strong>Full stack development</strong> of internal apps with a .NET backend and Angular / React frontends.",
-  "exp.b3": "<strong>Process digitalization</strong> of manual and paper-based workflows, reducing errors and operational time.",
-  "exp.b4": "<strong>Integrations</strong> with existing systems and external services through REST APIs.",
+    "<strong>3 internal web applications</strong> architected and built (.NET, Python-Django, Angular & React), cutting administrative management time by <strong>30%</strong>.",
+  "exp.b2":
+    "<strong>Medical records migration</strong> to a centralized SQL database, ensuring data integrity and secure access for <strong>200+ healthcare professionals</strong>.",
+  "exp.b3":
+    "<strong>Automated 8 repetitive workflows</strong> (appointments, reports, inventory), saving <strong>~40 hours/month</strong> of manual work.",
+  "exp.b4":
+    "<strong>Intuitive UIs & agile delivery</strong> in 2-week sprints alongside physicians and directors, achieving a user error rate below <strong>5%</strong>.",
 
   "srv.eyebrow": "What I do",
   "srv.title": "From the database to the last animation.",
@@ -59,6 +62,16 @@ export const en = {
   "prj.f.k3": "Impact",
   "prj.f.v3": "Centralized information, fewer errors and more time for patients.",
   "prj.f.note": "🔒 Code and UI are confidential due to sensitive health data.",
+  "prj.bronson":
+    "Online ordering platform for delivery & takeaway with an interactive cart and direct order dispatch via WhatsApp.",
+  "prj.paippa":
+    "Nightclub & events web app featuring an interactive date lineup, advance ticket sales and VIP table booking via WhatsApp.",
+  "prj.alisio":
+    "High-end outdoor chairs & gear digital catalog with a minimalist editorial layout and smooth animations.",
+  "prj.barber":
+    "English landing page for a premium barbershop in Austin, Texas, with service menu, team showcase, gallery and booking flow.",
+  "prj.codeaur":
+    "Commercial landing page for custom software development services, focused on lead generation, process showcase and scheduling.",
   "prj.1": "Movie catalog consuming an external API, with search and a fully responsive layout.",
   "prj.2": "Combines two public APIs: fetches a random fact and generates a related image in real time.",
   "prj.3": "API-powered image gallery with a responsive layout built on Bootstrap.",
