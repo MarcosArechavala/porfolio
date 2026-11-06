@@ -70,6 +70,8 @@ export const en = {
     "High-end outdoor chairs & gear digital catalog with a minimalist editorial layout and smooth animations.",
   "prj.barber":
     "English landing page for a premium barbershop in Austin, Texas, with service menu, team showcase, gallery and booking flow.",
+  "prj.padel":
+    "Web platform for an elite fitness center & padel complex featuring 4 locations, disciplines, membership plans and high-impact UI.",
   "prj.codeaur":
     "Commercial landing page for custom software development services, focused on lead generation, process showcase and scheduling.",
   "prj.1": "Movie catalog consuming an external API, with search and a fully responsive layout.",
